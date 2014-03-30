@@ -7,6 +7,12 @@ The TiLookback module wraps the Lookback iOS SDK for use in Titanium Mobile Appl
 version 0.6 HD
 This module should only be used in adHoc or development projects.  If you wish to use it in App Store projects, replace the Loopback.framework in this repo with the 'safe' version available from Loopback.io
 
+##### ToDo
+
+* add enteredView()
+* add exitedView()
+* add LookbackSettingsViewController
+
 ## Author
 
 **Stephen Feather**
