@@ -17,6 +17,17 @@ This module should only be used in adHoc or development projects.  If you wish t
 
 You will need to modify the module.xconfig to point to the location of the Lookback.framework on your local system.
 
+## Quick Start
+
+[![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/com.featherdirect.lookback)
+
+Download the latest distribution ZIP-file and consult the [Titanium Documentation](http://
+docs.appcelerator.com/titanium/latest/#!/guide/Using_a_Module) on how install it, or simply use the 
+[gitTio CLI](http://gitt.io/cli):
+
+`$ gittio install com.featherdirect.lookback`
+
+
 ## Author
 
 **Stephen Feather**
