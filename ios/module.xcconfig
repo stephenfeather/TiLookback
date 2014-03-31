@@ -26,4 +26,4 @@
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 //
 
-OTHER_LDFLAGS=$(inherited) -F "/Users/stephenfeather/Development/module-lookback/ios" -framework Lookback -framework AVFoundation -framework AudioToolbox -framework CoreVideo -framework CoreMedia -framework SystemConfiguration -framework MediaPlayer -framework QuartzCore
+OTHER_LDFLAGS=$(inherited) -ObjC -F "/sdks/frameworks" -framework Lookback -framework AVFoundation -framework AudioToolbox -framework CoreVideo -framework CoreMedia -framework SystemConfiguration -framework MediaPlayer -framework QuartzCore

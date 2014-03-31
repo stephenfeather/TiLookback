@@ -13,6 +13,10 @@ This module should only be used in adHoc or development projects.  If you wish t
 * add exitedView()
 * add LookbackSettingsViewController
 
+##### Notes
+
+You will need to modify the module.xconfig to point to the location of the Lookback.framework on your local system.
+
 ## Author
 
 **Stephen Feather**
