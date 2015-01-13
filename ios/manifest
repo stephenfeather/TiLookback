@@ -2,8 +2,9 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.6
+version: 0.61
 apiversion: 2
+architectures: armv7 i386 x86_64 arm64
 description: Lookback with HD for adHoc
 author: Stephen Feather
 license: Apache 2
@@ -15,4 +16,4 @@ name: Lookback-HD
 moduleid: com.featherdirect.lookback
 guid: c6cd4edb-5730-42a5-a071-d43d751f2c09
 platform: iphone
-minsdk: 3.2.2.GA
+minsdk: 3.4.1.GA
