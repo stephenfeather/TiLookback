@@ -26,4 +26,9 @@
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 //
 
+MYMODID=com.featherdirect.lookback
+MYMODVERSION=0.7
+
+FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/$(MYMODID)/$(MYMODVERSION)/platform /Library/Application\ Support/Titanium/modules/iphone/$(MYMODID)/$(MYMODVERSION)/platform ~/Library/Application\ Support/Titanium/modules/iphone/$(MYMODID)/$(MYMODVERSION)/platform
+
 OTHER_LDFLAGS=$(inherited) -ObjC -F "/sdks/frameworks" -framework Lookback -framework AVFoundation -framework AudioToolbox -framework CoreVideo -framework CoreMedia -framework SystemConfiguration -framework MediaPlayer -framework QuartzCore
